@@ -16,7 +16,11 @@ const App = () => {
   ])
 
   const handleGamePlay = (index) => {
-    alert(index)
+    // alert(index)
+    let updatedBoard = [...board]
+    // emoji keyboard: cmd + ctrl + space
+    updatedBoard[index] = "🌴"
+    setBoard(updatedBoard)
   }
 
   return (
