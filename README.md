@@ -26,7 +26,7 @@ As a developer, you are tasked with creating a treasure hunt game. The user will
   - To gain access to the index being clicked, we need to pass index into a function on App.js from Square
 
 
-- As a user, when I click on one of the question marks instead of the alert the question mark turns into a tree emoji.
+- ✅ As a user, when I click on one of the question marks instead of the alert the question mark turns into a tree emoji.
   Branch: tree-emoji
   - Create a copy of our state array
   - Index allows us to use bracket notation to update the element that was clicked to a tree emoji
